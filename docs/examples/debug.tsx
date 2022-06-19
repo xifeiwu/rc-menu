@@ -6,7 +6,7 @@ import Menu, { ItemGroup as MenuItemGroup } from '../../src';
 import type { MenuProps } from '../../src';
 import '../../assets/index.less';
 import '../../assets/menu.less';
-import type { MenuInfo } from '@/interface';
+import type { MenuInfo } from '../../src/interface';
 
 const collapseNode = () => {
   return { height: 0 };

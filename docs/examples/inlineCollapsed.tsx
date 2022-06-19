@@ -1,5 +1,6 @@
+// @ts-nocheck
 import React, { useState } from 'react';
-import Menu, { SubMenu, Item } from 'rc-menu';
+import Menu, { SubMenu, Item } from '../../src/index';
 import './inlineCollapsed.less';
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <>
       <label>
         <input type="checkbox" value={collapsed} onChange={e => setCollapsed(e.target.checked)} />
+        {/* <checkbox checked={collapsed} onChange={e => setCollapsed(e.target.checked)} /> */}
         inlineCollapsed: {collapsed.toString()}
       </label>
       <Menu

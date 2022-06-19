@@ -50,7 +50,7 @@ export default () => (
   <Menu
   selectable={false}
   mode="inline"
-  defaultOpenKeys={"Resources"}
+  defaultOpenKeys={["Resources"]}
   style={{ width: "100%" }}
   items={menu1Items(menu1List)}
 />
